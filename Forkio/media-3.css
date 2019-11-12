@@ -1,0 +1,358 @@
+@media (min-width: 1366px) and (max-width: 1600px) {
+	.icon-btn {
+		width: 35%;
+		transform: scale(1);
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+	.icon-btn {
+		width: 40%;
+		transform: scale(1.1);
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 30em;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+	.icon-btn {
+		width: 60%;
+		transform: scale(0.8);
+	}
+	.subscrib {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.head-sub {
+		margin: 0 auto; 
+	}
+	.mail {
+		margin: 0 auto;
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 29em;
+	}
+}
+
+@media (max-width: 1366px) and (min-width: 801px) {
+	.menu ul {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-right: 10%;
+		list-style: none;
+	}
+	.decisions-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.infa-block {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin: 0 auto;
+	}
+	.for-get {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		margin: 0 auto;
+	}
+	.get {
+		position: relative;
+		display: flex;
+		width: 100%;
+	}
+	.payment {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center; 
+		width: 90%;
+	}
+	.pay-block {
+		margin: 1.6em;
+	}
+	.image-block {
+		transform: scale(1);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 33em;
+	}	
+}
+
+@media (min-width: 801px) {
+	.m-menu-link { display: none; }	
+}
+
+@media (max-width: 800px) {
+	html { 
+		font-size: 0.9em;
+	}
+	.main-head {
+		width: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.visible-lg { display: none; }
+	.logo { scale: 0.5; }
+	.m-menu-link {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		color: black;
+		font-size: 2em;
+	}
+	.main-button {
+		position: absolute;
+		right: 30%;
+		text-align: center;
+	}
+	.button-buy {
+		width: 9.4em;
+		height: 2.2em;
+		font-size: 1.1em;
+	}
+	.app {
+		font-size: 6.5em;
+		font-weight: 700;
+	}
+	.btn {
+		width: 25em;
+		height: 4em;
+		font-size: 1.3em;
+		text-decoration: none;
+		text-align: center;
+	}
+	.for-editor {
+		font-size: 4em;
+		font-weight: 700;
+		line-height: 1.2em;
+		text-align: center;
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+	.description {
+		width: 80%;
+	}
+	.icon-btn {
+		width: 80%;
+		transform: scale(0.9);
+	}
+	.for-get {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		margin: 0 auto;
+	}
+	.text-for-get {
+		font-size: 4em;
+		width: 70%;
+		text-align: center;
+	}
+	.decisions-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0 5% 0 5%;
+	}
+	.infa-block {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin: 0 auto;
+	}
+	.network {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.payment {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center; 
+		align-items: center;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.subscrib {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.head-sub {
+		margin: 0 auto; 
+	}
+	.mail {
+		margin: 0 auto;
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 29em;
+	}
+	.footer-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 5%;
+	}
+	.info-footer {
+		width: 25em;
+	}
+}	
+
+@media (max-width: 800px) and (min-width: 320px) {
+	html { 
+		font-size: 0.7em;
+		margin: 0 auto;
+		width: 100vw;
+	}
+	.main-head {
+		width: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.visible-lg { display: none; }
+	.main-button {
+		position: absolute;
+		right: 30%;
+	}
+	.button-buy {
+		width: 9.4em;
+		height: 2.2em;
+		font-size: 1.2em;
+	}
+	.app {
+		font-size: 5em;
+		font-weight: 700;
+	}
+	.btn {
+		width: 25em;
+		height: 4em;
+		font-size: 1em;
+		text-decoration: none;
+		text-align: center;
+	}
+	.for-editor {
+		font-size: 3em;
+		font-weight: 700;
+		line-height: 1.2em;
+		text-align: center;
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+	.description {
+		width: 80%;
+	}
+	.icon-btn {
+		width: 500px;
+		transform: scale(0.7);
+	}
+	.decisions-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0 5% 0 5%;
+	}
+	.infa-block {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	.image-block {
+		transform: scale(0.9);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 40em;
+	}
+	.for-get {
+		position: relative;
+		display: flex;
+		justify-content: center;
+	}
+	.text-for-get {
+		font-size: 3em;
+		width: 70%;
+		text-align: center;
+	}
+	.get {
+		overflow-x: hidden;
+	}
+	.img-page {
+		position: relative;
+		width: 100vw;
+	}
+	.network {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 28em;
+	}
+	.footer-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 5%;
+	}
+	.info-footer {
+		width: 25em;
+	}
+}
+
