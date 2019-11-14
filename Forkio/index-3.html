@@ -18,11 +18,8 @@
                 <div class="logo">
                     <img src="images/logo.png" alt="logo-Forkio">
                 </div>
-                <nav class="main-menu">
+                <nav class="main-menu-burg">
                     <div class="burger-menu">
-                        <a href="#" class="m-menu-link">
-                            <i class="fa fa-bars" aria-hidden="true"></i>
-                        </a>
                         <div class="menu visible-lg">
                             <ul>
                                 <li>
@@ -44,6 +41,21 @@
                         <button class="button-buy menu-link" type="submit">Buy Now</button>
                     </div>
                 </nav>
+                <div class="wrapper">
+                    <input type="checkbox" id="check-menu">
+                    <label for="check-menu"></label>
+                    <div class="burger-line first"></div>
+                    <div class="burger-line second"></div>
+                    <div class="burger-line third"></div>
+                    <div class="burger-line fourth"></div>
+                    <nav class="main-menu">
+                        <a href="#" class="burg">Overview</a>
+                        <a href="#" class="burg">About Fork</a>
+                        <a href="#" class="burg">Buying Options</a>
+                        <a href="#" class="burg">Support</a>
+                        <a href="#" class="burg">Buy Now</a>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -98,35 +110,39 @@
         </div>
         <div class="decisions-block">
             <div class="infa-block">
-                <div class="image-block">
+                <div class="desc-block">
                     <div class="block-one">
                         <img src="images/icon.png" alt="icon">
                     </div>
-                    <div class="block-one">
-                        <img src="images/icon-1.png" alt="icon">
-                    </div>
-                    <div class="block-one">
-                        <img src="images/icon-2.png" alt="icon">
-                    </div>
-                    <div class="block-one">
-                        <img src="images/icon-3.png" alt="icon">
-                    </div>
-                </div>
-                <div class="desc-block">
                     <div class="text-block">
                         <h3 class="name">Creatred to Make The Web Better</h3>
                         <p class="desc-name">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. 
                         Sed id metus id quam auctor molestie eget ut augue.</p>
                     </div>
+                </div>
+                <div class="desc-block"> 
+                    <div class="block-one">
+                        <img src="images/icon-1.png" alt="icon">
+                    </div>   
                     <div class="text-block">
                         <h3 class="name">Incredibly Powerful Tool</h3>
                         <p class="desc-name">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. 
                         Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
                     </div>
+                </div>
+                <div class="desc-block"> 
+                    <div class="block-one">
+                        <img src="images/icon-2.png" alt="icon">
+                    </div>
                     <div class="text-block">
                         <h3 class="name">Experimental Stuff</h3>
                         <p class="desc-name">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. 
                         Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+                    </div>
+                </div>
+                <div class="desc-block"> 
+                    <div class="block-one">
+                        <img src="images/icon-3.png" alt="icon">
                     </div>
                     <div class="text-block">
                         <h3 class="name">Creatred to Make The Web Better</h3>
@@ -150,7 +166,7 @@
                 </div>
                 <div class="full-name">
                     <div class="name-nick">
-                        <p class="first-name">Steven Strange</p>
+                        <h3 class="first-name">Steven Strange</h3>
                         <p class="nick">@DoctorS</p>
                     </div>
                 </div>
@@ -181,7 +197,7 @@
                 <div class="get-hub">
                     <form action="https://github.com/" target="_blank">    
                         <button class="net-hub" type="submit">
-                            <img src="images/git.png" alt="GitHub">GitHub
+                            <img class="icon-img" src="images/git.png" alt="GitHub">GitHub
                         </button>
                     </form>
                     <div class="followers">
@@ -191,7 +207,7 @@
                 <div class="twitter">
                     <form action="https://twitter.com/?lang=ru" target="_blank">
                         <button class="net-twit" type="submit">
-                            <img src="images/bird.png" alt="Twitter">Twitter
+                            <img class="icon-img" src="images/bird.png" alt="Twitter">Twitter
                         </button>
                     </form>
                     <div class="followers">
@@ -201,7 +217,7 @@
                 <div class="facebook">
                     <form action="https://facebook.com/" target="_blank">
                         <button class="net-face" type="submit">
-                            <img src="images/face.png" alt="Facebook">Facebook
+                            <img class="icon-img" src="images/face.png" alt="Facebook">Facebook
                         </button>
                     </form>
                     <div class="followers">
@@ -316,13 +332,13 @@
                         <button class="purchase" type="submit">Purchase</button> 
                     </div>
                 </div>  
-                <div class="pay-block">
+                <div class="pay-block-agency">
                     <div class="pay-man">
                         <div class="pay-dedree">
-                            <p class="degree">Agency</p>
+                            <p class="degree-agency">Agency</p>
                         </div>
                         <div class="infa">
-                            <span class="sum">$<span class="number">99</span></span>
+                            <span class="sum-agency">$<span class="number">99</span></span>
                             <span class="period">Per month</span>
                             <div class="pey-line">
                                 <span>line</span>
@@ -331,7 +347,7 @@
                         </div>
                     </div>
                     <div>
-                        <button class="purchase" type="submit">Purchase</button> 
+                        <button class="purchase-agency" type="submit">Purchase</button> 
                     </div>
                 </div>
                 <div class="pay-block">
@@ -369,7 +385,7 @@
                     <input class="sub-for-mail" type="email" name="email" placeholder="Email...">
                 </div>
                 <div class="sub-button">
-                    <button class="button-buy" type="submit">Subscribe</button>
+                    <button class="button-subscribe" type="submit">Subscribe</button>
                 </div>  
             </div>
         </div>
@@ -433,7 +449,7 @@
             <span>line</span>
         </div>
     </section>
-    <footer class="footer wrapper">
+    <footer class="footer-wrapper">
         <div class="footer-content">
             <div class="logo-content">
                 <div class="forkio">
@@ -444,7 +460,7 @@
             <div>
                 <nav class="footer-block">
                     <ul>
-                        <span class="bold nav">Navigation</span>
+                        <li class="bold nav">Navigation</li>
                         <li><a class="footer-link" href="#">Home</a> </li>
                         <li><a class="footer-link" href="#">Overview</a></li>
                         <li><a class="footer-link" href="#">About</a></li>
